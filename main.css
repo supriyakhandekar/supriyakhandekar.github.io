@@ -1,0 +1,113 @@
+
+.jumbotron{
+position: relative;
+top: 30px;
+min-height: 800px;
+}
+
+#end{
+	background-color: #19114f;
+	height: 90px;
+	padding-bottom: 30px;
+}
+#bio{
+	letter-spacing: 3px;
+
+}
+
+#college{
+	letter-spacing: 3px;
+}
+
+#resume{
+	letter-spacing: 3px;
+	font-family: Georgia;
+	font-size: 30px;
+	padding-top: 40px;
+}
+
+#end3{
+	background-color: #19114f;
+	height: 30px;
+}
+
+#middle{
+	background-color: #19114f;
+	height: 30px;
+	padding-top: 20px;
+}
+.navbar{
+	height: 90px;
+	background-color: #19114f;
+}
+.container-fluid{
+	border-radius: 0px;
+}
+
+#cities{
+	letter-spacing: 4px;
+}
+#header{
+	font-family: Georgia;
+	font-size: 80px;
+	letter-spacing: 5px;
+}
+
+#contactMe{
+	font-family: sans-serif;
+	font-style: black;
+}
+
+#fbIcon{
+
+	border-radius: 10px;
+}
+
+#center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+#right {
+    right: 0px
+    padding: 10px;
+}
+
+#left{
+	left: 0px
+	padding: 10px;
+}
+
+#profile{
+	width: 60%;
+	height: 60%;
+	padding-bottom: 30px;
+}
+
+#quote{
+	letter-spacing: 3px;
+	font-size: 15px;
+}
+
+.container{
+
+	display:inline-block;
+
+
+}
+
+#copyright{
+	color: white;
+}
+
+.places{
+
+	border: 5px solid black;
+}
+
+
+.pull-right{
+
+	font-family:Garamond;
+}
