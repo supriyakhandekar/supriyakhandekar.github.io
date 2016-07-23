@@ -1,0 +1,142 @@
+
+
+body, html, .main {
+    height: 100%;
+}
+section {
+    min-height: 100%;
+}
+
+header.main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#4876ff, #3bb9ff); /* Standard syntax */
+  background-image: url("newyork.jpg");
+  background-size: 1500px 820px;
+}
+
+section.bio_section{
+  display:flex;
+  flex-direction: row;
+}
+#profile{
+  transform:rotate(90deg);
+  margin-bottom: 175px;
+  height: 450px;
+  width: 680px;
+  border-radius: 10px;
+  border: 2px solid #315198;
+}
+#bio{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width:70%;
+  margin-bottom:300px;
+  margin-right: 10px;
+}
+
+#header{
+  margin-top:100px;
+  letter-spacing: 3px;
+  font-size: 25px;
+  flex-direction: flex-start;
+}
+div#name{
+  width:100%;
+  height: 50px;
+  align-self: center;
+  font-size: 55px;
+  color: #313133;
+  letter-spacing: 13px;
+  font-weight: 400;
+  text-align: center;
+  margin-top:220px;
+}
+
+div#college{
+  margin-top: 10px;
+  margin-bottom:20px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: #313133;
+  letter-spacing: 4px;
+  font-weight: 400;
+
+}
+
+div#sections{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 200px;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.Button:hover{
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.Button{
+  width: 80px;
+  height: 40px;
+  background-color: #191970;
+  border-radius: 3px;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+
+#profile-box{
+  width:50%;
+  align-items:center;
+  display: flex;
+}
+
+.overrides{
+	btn-border-radius-large: 0px;
+	btn-info-color: magenta;
+}
+
+#greeting{
+	font-size: 55px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+}
+
+#bottom{
+  display: flex;
+  flex-direction:row;
+  background-color: #2f2c2e;
+  height: 150px;
+  justify-content: flex-end;
+}
+
+#bottom-text{
+  align-self: flex-end;
+  font-size: 100%;
+  color: white;
+  padding: 70px;
+}
