@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -46,7 +47,92 @@
     </div>
   </div>
 </body>
+=======
+<!DOCTYPE html>
+	<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<link rel = 'stylesheet' href = 'personalWebsite_stylesheet.css'>
+		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Bad+Script|Rokkitt' rel='stylesheet' type='text/css'>
 
+		<script>
+		//http://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll 
+		$(document).ready(function(){
+  			// Add smooth scrolling to all links
+  			$("a").on('click', function(event) {
+   			 // Make sure this.hash has a value before overriding default behavior
+    		if (this.hash !== "") {
+      			// Prevent default anchor click behavior
+      			event.preventDefault();
 
+      		// Store hash
+      		var hash = this.hash;
 
+      		// Using jQuery's animate() method to add smooth page scroll
+      		// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      		$('html, body').animate({
+        		scrollTop: $(hash).offset().top
+      		}, 800, function(){
+        	// Add hash (#) to URL when done scrolling (default click behavior)
+        	window.location.hash = hash;
+      		});
+    		} // End if
+  		});
+		});
+		</script>
+		<title>Supriya's Website</title>
+	</head>
+	<body>
+		<header class="main">
+  					<div id = "name">SUPRIYA KHANDEKAR</div>
+						<div id = "college">BARNARD COLLEGE, COLUMBIA UNIVERSITY '19</div>
+  					<div id = "sections">
+								<a href = '#section2'>
+										<div class = "Button">BIO</div>
+								</a>
+								<a href = 'Supriya_Khandekar_Resume_8142016.pdf'>
+										<div class = "Button">RESUME</div>
+								</a>
+								<a href = 'https://twitter.com/SSKhandekar'>
+										<div class = "Button">TWITTER</div>
+								</a>
+								<a href = 'https://github.com/supriyakhandekar'>
+										<div class = "Button">GITHUB</div>
+								</a>
+								<a href="mailto:supriyaskhandekar@gmail.com">
+										<div class = "Button">EMAIL</div>
+								</a>
+  						</div>
+  		</header>
+>>>>>>> 4d748a51f1d9b52d8112b888dd7b99afd27a282e
+
+		<section class="bio_section" id="section2" style="background-color:#fffafa">
+			<div id="profile-box">
+				<img id = "profile" src="profile.jpg"></img>
+			</div>
+			<div id = "bio">
+				<h1 id = "header">OPINIONATED. CURIOUS. RELENTLESS.</h1>
+				<h2 id = "greeting"><strong>Hi, I'm Supriya.</strong></h1>
+				<h3>Nice to meet you.</h3>
+				<br>
+				<p id="paragraph">
+				Last December, I fell in love with CS. Ever since, I&#39;ve plunged into the field quickly and relentlessly, seizing opportunity after opportunity to engage, learn, and grow as a young computer scientist. Within the recent spring semester, I attended engineering conferences, hackathons, got involved on the board for Women in CS at Columbia, worked with data analytics at a internship in downtown Manhattan, and landed a challenging internship at Yahoo for the summer.
+			 </p>
+			 <br>
+			 <p> I&#39;ve always wondered how CS hooked me, and I soon came to the realization that I am attracted to two main things: it&#39;s challenge and intersectionality.</p>
+			 <br>
+			 <p> The amount of possibility in this field is exciting. I can&#39;t wait to learn more and build more. This is just the start, but it&#39;s going to be a great ride. Please check back soon for more updates- have many upcoming plans for future blogging (both tech related and non-tech related), and much, much, more. Stay tuned.</p>
+			</div>
+		</section>
+		<div id="bottom">
+			<p id = "bottom-text">Coded with Love. &copy Supriya Khandekar 2016</p>
+		</div>
+
+<<<<<<< HEAD
+
+=======
+	</body>
+>>>>>>> 4d748a51f1d9b52d8112b888dd7b99afd27a282e
 </html>
