@@ -7,30 +7,30 @@ html{
 #profile{
   width: 410px;
   height: 520px;
+  border: 2px solid white;
 
 }
 #title {
-  font-family: 'News Cycle', sans-serif;
-  letter-spacing: 1px;
-  font-size: 35px;
-  font-weight:100;
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 4px;
+  font-size: 45px;
+  font-weight:50;
   margin-top:30px;
   margin-left: 30px;
 
 }
 
 #major{
- font-family: 'News Cycle', sans-serif;
+ font-family: 'Roboto Slab', serif;
  font-size: 15px;
  font-weight: 100;
  margin-left: 30px;
- letter-spacing: 1px;
  margin-top: 0px;
 
 
 }
 #school{
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: 100;
   font-size: 14px;
   margin-left: 30px;
@@ -66,9 +66,7 @@ html{
   min-width: 500px;
   justify-content: center;
   width: 50%;
-
-  background-color: #f0a5b2;
-
+  background-color: #ec585f;
 }
 
 #right-container{
@@ -77,15 +75,13 @@ html{
   justify-content: center;
   color: white;
   width: 50%;
-
-
-  background-color: #46b1dd;
+  background-color: #808000;
   min-width: 400px;
-  border-left: solid 1px #5dbcd2;
+  border-left: solid 45px white;
 }
 
 .bio {
-  font-family: 'News Cycle', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 14px;
   font-weight: 100;
   margin-top: 8px;
