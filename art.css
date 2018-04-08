@@ -1,0 +1,108 @@
+html,
+body {
+
+  padding: 0 0 0 0;
+
+}
+
+.art-title {
+
+  display: flex;
+  height: 60px;
+  font-size: 50px;
+  justify-content: center;
+  font-family: 'Playfair Display SC', serif;
+
+}
+
+.sketch-box {
+
+  display: flex;
+  margin-top: 40px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+.sketch-container {
+  display: flex;
+  height: 800px;
+  width: 650px;
+  flex-direction: column;
+}
+
+
+.sketch-common {
+  margin: 25px 25px 25px 25px;
+}
+
+
+.caption {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 400;
+  margin-right: 85px;
+}
+
+#sketch-1 {
+  background-image: url('sketches/natasha-sketch.jpg');
+  background-size: cover;
+  height: 650px;
+  width: 500px;
+  border: 15px solid #ed1556;
+}
+
+#sketch-2 {
+  background-image: url('sketches/audrey-sketch.jpg');
+  background-size: cover;
+  height: 650px;
+  width: 450px;
+  border: 15px solid #ffe800;
+
+}
+
+#sketch-3 {
+  background-image: url('sketches/buster-1-sketch.jpg');
+  background-size: cover;
+  height: 650px;
+  width: 450px;
+  border: 15px solid #13b5ea;
+
+}
+
+#sketch-4 {
+  background-image: url('sketches/naomi-sketch.jpg');
+  background-size: cover;
+  height: 650px;
+  width: 450px;
+  border: 15px solid #c1d82f;
+
+}
+
+#sketch-5 {
+  background-image: url('sketches/pranav-sketch.jpg');
+  background-size: cover;
+  height: 650px;
+  width: 450px;
+  border: 15px solid 	#ed1556;
+
+}
+
+#sketch-6 {
+  background-image: url('sketches/buster-2-sketch.jpg');
+  background-size: cover;
+  height: 650px;
+  width: 450px;
+  border: 15px solid #ffe800;
+}
+
+#sketch-7 {
+  background-image: url('sketches/alyssa-sketch.jpg');
+  background-size: cover;
+  height: 650px;
+  width: 450px;
+  border: 15px solid 	#13b5ea;
+}
