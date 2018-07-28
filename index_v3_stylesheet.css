@@ -7,7 +7,8 @@ html{
 #profile{
   width: 410px;
   height: 520px;
-  border: 2px solid white;
+  border: 3px solid #808000;
+  border-radius: 70%;
 
 }
 
@@ -66,7 +67,6 @@ html{
   margin-top: 15px;
   margin-bottom: 10px;
 
-
 }
 
 .icon {
@@ -87,8 +87,9 @@ html{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 25px;
   color: white;
-  width: 50%;
+  width: 70%;
   background-color: #808000;
   min-width: 400px;
   border-left: solid 45px white;
