@@ -52,7 +52,7 @@ body {
    display:flex;
    justify-content: center;
    align-items: center;
-
+   margin-top: -20px;
 
 }
 
@@ -138,10 +138,10 @@ body {
 .bio {
 
   background-color: white;
-  height: 500px;
-  width: 800px;
-  transform: translateX(1700px);
-  margin-top: 400px;
+  transform: translateX(800px);
+  margin-top: 100px;
+  height: 200px;
+  width: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -151,9 +151,10 @@ body {
 
 .bio_text {
 
-  font-size: 35px;
+  font-size: 17px;
   font-family: sans-serif;
   font-weight:100;
+  margin-top:20px;
   font-family: 'Libre Caslon Display', serif;
 
 }
