@@ -94,6 +94,18 @@ body {
   overflow: hidden;
 }
 
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+
+
+  .img-wrapper {
+    margin-left: 200px;
+  }
+
+}
+
+
+
 .inner-img {
   transition: 5s;
 }
@@ -136,6 +148,15 @@ body {
 
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+
+  .aboutme_box {
+
+    background-position-x: 50%;
+    background-size:auto;
+  }
+}
+
 .bio {
 
   background-color: white;
@@ -148,6 +169,14 @@ body {
   align-items: center;
   padding: 30px 30px 30px 30px;
   flex-direction: column;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+
+  .bio {
+      transform: translateX(100px);
+  }
+
 }
 
 .bio_text {
